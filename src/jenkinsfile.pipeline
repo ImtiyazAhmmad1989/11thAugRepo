@@ -1,7 +1,7 @@
 Library('aug11-shared-lib') _
 pipeline{
 	
-	agent any{
+	agent any
 	
 	stages{
 	
@@ -29,4 +29,3 @@ pipeline{
 
 
 
-}
