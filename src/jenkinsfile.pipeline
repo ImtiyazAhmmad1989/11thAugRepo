@@ -1,0 +1,31 @@
+pipeline{
+	
+	agent any{
+	
+	stages{
+	
+	stage('Run my Util'){
+	
+	steps{
+	
+	
+		scripts{
+		
+		util.m1()
+		
+		}
+	
+	
+	
+	}
+	
+	}
+	
+	}
+	
+	
+	}
+
+
+
+}
