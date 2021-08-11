@@ -1,4 +1,4 @@
-Library('aug11-shared-lib') _
+@Library('aug11-shared-lib') _
 pipeline{
 	
 	agent any
