@@ -2,7 +2,7 @@ import java.util.List
 import org.apache.commons.lang3.text.StrSubstitutor
 
 
-def m1(params){
+def m1(p,params){
 
 println WELCOME_MESSAGE
 
