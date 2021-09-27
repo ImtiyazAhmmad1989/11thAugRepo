@@ -1,4 +1,5 @@
 @Library('aug11-shared-lib') _
+import groovy.transform.Field
 
 
 @Field WELCOME_MESSAGE='HELLO JENKINS WORLD'
