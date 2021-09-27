@@ -17,7 +17,7 @@ pipeline{
 	
 		script{
 		print WELCOME_MESSAGE;
-		util.m1(params)
+		util.m1(this,params)
 		
 		
 		
