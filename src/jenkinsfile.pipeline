@@ -1,4 +1,8 @@
 @Library('aug11-shared-lib') _
+
+
+@Field WELCOME_MESSAGE='HELLO JENKINS WORLD'
+
 pipeline{
 	
 	agent any
@@ -13,6 +17,8 @@ pipeline{
 		script{
 		
 		util.m1(params)
+		
+		print WELCOME_MESSAGE;
 		
 		}
 	
