@@ -3,9 +3,9 @@ def m1(){
 
 println '******PRINTING ALL ITEMS ******'
 
-	Jenkins.instance.getAllItems().each{
-
-    println it.fullName
+	for(p in params){
+		
+		println p
  
 	}
 
