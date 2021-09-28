@@ -16,6 +16,17 @@ pipeline{
 	
 	
 		script{
+		
+	
+		
+		
+		def data = readYaml file:'property/test.yaml'
+		for (x in data)
+		{
+		print x
+		}
+		
+		
 		print WELCOME_MESSAGE;
 		util.m1(this,params)
 		
