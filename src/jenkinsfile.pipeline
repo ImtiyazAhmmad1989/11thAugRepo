@@ -32,7 +32,8 @@ pipeline{
 		
 		Properties properties = readProperties  file:'property/test.yaml'
 		def propertyNames= properties.propertyNames()
-		print propertyNames
+		print propertyNames[0]
+		print propertyNames[1]
 		
 		//print WELCOME_MESSAGE;
 		//util.m1(this,params)
