@@ -21,6 +21,10 @@ pipeline{
 		println properties
 		
 		
+		def data = readYaml file:'property/test.yaml'
+		
+		print data
+		
 		
 		
 		print WELCOME_MESSAGE;
