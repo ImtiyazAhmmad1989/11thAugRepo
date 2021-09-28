@@ -17,14 +17,14 @@ pipeline{
 	
 		script{
 		
-		//Properties properties = readProperties  file:'property/test.yaml'
-		//println properties
+	
 		
 		
 		def data = readYaml file:'property/test.yaml'
-		print data
-		print data[0]
-		
+		for (x in data)
+		{
+		print x
+		}
 		
 		
 		print WELCOME_MESSAGE;
