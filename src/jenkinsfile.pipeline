@@ -21,10 +21,13 @@ pipeline{
 		
 		
 		def data = readYaml file:'property/test.yaml'
-		for (x in data)
-		{
-		print x
-		}
+		
+		print data
+		
+		def var= data.JobName.toString()
+		print var
+		
+		
 		
 		
 		print WELCOME_MESSAGE;
