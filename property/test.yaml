@@ -2,4 +2,8 @@ JobName:
   UI:Selenium
   API:RestAssured
   Per:Jemeter
+  
+WorkName:
+  A:B
+  C:D
     
