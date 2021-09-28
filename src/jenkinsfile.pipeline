@@ -17,11 +17,8 @@ pipeline{
 	
 		script{
 		
-		File file=new File("property/test.txt")
-		FileInputStream input=new FileInputStream(file)
-		properties.load(input)
-
-		println(properties)
+		Properties properties = readProperties  file:'property/test.yaml'
+		println properties
 		
 		
 		
