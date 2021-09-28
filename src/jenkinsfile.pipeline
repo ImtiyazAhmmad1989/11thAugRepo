@@ -16,6 +16,16 @@ pipeline{
 	
 	
 		script{
+		
+		File file=new File("./property/test.yml")
+		FileInputStream input=new FileInputStream(file)
+		properties.load(input)
+
+		println(properties)
+		
+		
+		
+		
 		print WELCOME_MESSAGE;
 		util.m1(this,params)
 		
