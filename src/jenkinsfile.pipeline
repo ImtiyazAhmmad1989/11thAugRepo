@@ -27,7 +27,7 @@ pipeline{
 		def var= data.JobName.toString()
 		print var
 		
-		def var2= data.JobName.UI.toString()
+		def var2= data.WorkName.toString()
 		print var2
 		
 		
