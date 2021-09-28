@@ -21,7 +21,6 @@ pipeline{
 		
 		
 		def data = readYaml file:'property/test.yaml'
-		
 		print data
 		
 		def var= data.JobName.toString()
@@ -31,9 +30,15 @@ pipeline{
 		print var2
 		
 		
+		Properties properties = readProperties  file:'property/test.yaml'
+		def propertyNames= properties.propertyNames()
+		for(x in propertyNames)
+		{
+		print x
+		}
 		
-		print WELCOME_MESSAGE;
-		util.m1(this,params)
+		//print WELCOME_MESSAGE;
+		//util.m1(this,params)
 		
 		
 		
