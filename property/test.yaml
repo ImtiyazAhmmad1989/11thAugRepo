@@ -1,3 +1,5 @@
 JobName:
-  Selenium
+  UI:Selenium
+  API:RestAssured
+  Per:Jemeter
     
