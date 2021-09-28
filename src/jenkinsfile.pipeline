@@ -17,7 +17,7 @@ pipeline{
 	
 		script{
 		
-		File file=new File("/property/test.yml")
+		File file=new File("property/test.yaml")
 		FileInputStream input=new FileInputStream(file)
 		properties.load(input)
 
