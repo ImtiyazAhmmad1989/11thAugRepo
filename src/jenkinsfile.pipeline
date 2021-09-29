@@ -22,6 +22,11 @@ pipeline{
 		def data = readYaml file:'property/test.yaml'
 		print data
 		
+		str = data.toString().split(',');
+		for(x in str){
+		print x
+		}
+		
 		def var= data.JobName.toString()
 		print var
 		
