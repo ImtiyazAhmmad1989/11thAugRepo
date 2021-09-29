@@ -25,7 +25,7 @@ pipeline{
 		def var= data.JobName.toString()
 		print var
 		
-		def var2= data.WorkName.API.toString()
+		def var2= data.JobName.API.toString()
 		print "API VAUE IS "
 		print var2
 		
