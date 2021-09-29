@@ -22,7 +22,7 @@ pipeline{
 		def data = readYaml file:'property/test.yaml'
 		print data
 		
-		str = data.JobName.toString().split(':',2);
+		str = data.JobName.toString().split(':');
 		for(x in str){
 		print x
 		}
