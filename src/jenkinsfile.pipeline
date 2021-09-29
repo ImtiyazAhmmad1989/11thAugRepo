@@ -16,9 +16,9 @@ pipeline{
 	
 	
 		script{
-		
-		
-		
+
+		print 'This is demo project'
+
 		def data = readYaml file:'property/test.yaml'
 		print data
 		
