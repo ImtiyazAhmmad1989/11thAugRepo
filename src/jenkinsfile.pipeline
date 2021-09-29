@@ -17,9 +17,6 @@ pipeline{
 	
 		script{
 		
-		print InputParameters
-		
-	
 		
 		
 		def data = readYaml file:'property/test.yaml'
