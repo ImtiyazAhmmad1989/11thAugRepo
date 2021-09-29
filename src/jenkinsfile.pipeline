@@ -9,7 +9,7 @@ import groovy.transform.Field
 
 pipeline{
 	
-	agent JENKINS_EXECUTOR
+	agent any
 	
 	stages{
 	
