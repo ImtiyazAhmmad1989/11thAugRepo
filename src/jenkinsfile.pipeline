@@ -21,7 +21,7 @@ pipeline{
 		println params;
 	
 		for (param in params) {
-        	String[] paramArray = param.split(":", 2)
+        	String[] paramArray = param.split(":")
        		 String key = paramArray[0]
       		  if (paramArray.length == 2) {
 		    String value = paramArray[1]
