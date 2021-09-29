@@ -5,13 +5,11 @@ import groovy.transform.Field
 @Field WELCOME_MESSAGE='HELLO JENKINS WORLD'
 @Field def Map<String,String> parameterMap = new LinkedHashMap<String, String>()
 
-@Field JENKINS_EXECUTOR='any'
+@Field JENKINS_EXECUTOR = any
 
 pipeline{
 	
-	agent { 
-	label JENKINS_EXECUTOR 
-	}
+	agent JENKINS_EXECUTOR
 	
 	stages{
 	
